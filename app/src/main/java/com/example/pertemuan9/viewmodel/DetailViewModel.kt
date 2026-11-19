@@ -14,7 +14,6 @@ import kotlinx.coroutines.flow.stateIn
 class DetailViewModel (
     savedStateHandle: SavedStateHandle,
     private val repositoriSiswa: RepositoriSiswa,
-    TIMEOUT_MILLIS: Long
 ) : ViewModel(){
 
     private val idSiswa: Int = checkNotNull(savedStateHandle[DestinasiDetailSiswa.itemIdArg])
